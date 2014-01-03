@@ -46,12 +46,6 @@ public final class UrlImageViewHelper {
 
     static Resources mResources;
     static DisplayMetrics mMetrics;
-    static Drawable errorDrawable;
-
-    public static void setErrorDrawable(Drawable drawable){
-        errorDrawable=drawable;
-    }
-
     private static void prepareResources(Context context) {
         if (mMetrics != null)
             return;
@@ -200,7 +194,7 @@ public final class UrlImageViewHelper {
             if (imageView != null)
                 imageView.setImageDrawable(drawable);
             if (callback != null)
-                callback.onLoaded(imageView, drawable, url, true, false);
+                callback.onLoaded(imageView, drawable, url, true);
             return;
         }
 
@@ -218,7 +212,7 @@ public final class UrlImageViewHelper {
                         imageView.setImageDrawable(drawable);
                     cache.put(url, drawable);
                     if (callback != null)
-                        callback.onLoaded(imageView, drawable, url, true, false);
+                        callback.onLoaded(imageView, drawable, url, true);
                     return;
                 }
                 else {
@@ -293,11 +287,8 @@ public final class UrlImageViewHelper {
 
             protected void onPostExecute(BitmapDrawable result) {
                 Drawable usableResult = result;
-                boolean error = false;
-                if (usableResult == null){
-                    error = true;
-                    usableResult = errorDrawable;
-                }
+                if (usableResult == null)
+                    usableResult = defaultDrawable;
                 mPendingDownloads.remove(url);
                 cache.put(url, usableResult);
                 for (ImageView iv: downloads) {
@@ -313,7 +304,7 @@ public final class UrlImageViewHelper {
                         final ImageView imageView = iv;
                         imageView.setImageDrawable(newImage);
                         if (callback != null)
-                            callback.onLoaded(imageView, usableResult, url, false, error);
+                            callback.onLoaded(imageView, result, url, false);
                     }
                 }
             }

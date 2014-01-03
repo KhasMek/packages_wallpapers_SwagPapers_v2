@@ -63,8 +63,6 @@ public class WallpaperActivity extends Activity {
 
         mLoadingDialog.show();
         new LoadWallpaperManifest().execute();
-
-        UrlImageViewHelper.setErrorDrawable(getResources().getDrawable(R.drawable.ic_error));
     }
 
     @Override
@@ -282,16 +280,15 @@ public class WallpaperActivity extends Activity {
 
             @Override
             public void onLoaded(ImageView imageView, Drawable loadedDrawable, String url,
-                    boolean loadedFromCache, boolean error) {
+                    boolean loadedFromCache) {
 
                 final int relativeIndex = index % 4;
-                if (!error) {
+                if (loadedDrawable != null) {
                     getThumbView(relativeIndex).setOnClickListener(
                             new ThumbnailClickListener(wall));
+                    getThumbView(relativeIndex).setVisibility(View.VISIBLE);
                 }
-                getThumbView(relativeIndex).setVisibility(View.VISIBLE);
-                
-                if (relativeIndex == 3)
+                if (loadedDrawable != null && relativeIndex == 3)
                     getNextButton().setEnabled(true);
             }
         }
