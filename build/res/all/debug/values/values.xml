@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="Black">#000000</color>
+    <!-- From: file:/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <!-- From: file:/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="about">About</string>
+    <string name="app_name">AOKP Wallpapers</string>
+    <string name="back">Previous</string>
+    <string name="category_name">Category Name</string>
+    <string name="choose_category">Choose category</string>
+    <!-- From: file:/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/values/config.xml -->
+    <eat-comment />
+
+    <string name="config_wallpaper_download_loc"></string>
+    <string name="config_wallpaper_manifest_url">https://raw.github.com/AOKP/packages_wallpapers_SwagPapers_v2/gh-pages/wallpaper_manifest.xml</string>
+    <string name="config_wallpaper_sdcard_dl_location">AOKP</string>
+    <!-- From: file:/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="downloading">Downloading…</string>
+    <string name="jump">Jump to Page</string>
+    <string name="jump2">Jump to Page:</string>
+    <string name="next">Next</string>
+    <string name="page">Page: </string>
+    <string name="save_wallpaper">Save to Storage</string>
+    <string name="saved">Wallpaper saved to</string>
+    <string name="set">Wallpaper set!</string>
+    <string name="set_wallpaper">Set as Wallpaper</string>
+    <string name="setting_wallpaper">Setting wallpaper…</string>
+    <string name="title_activity_wallpaper">Swag Papers</string>
+    <string name="vote">Vote!</string>
+    <string name="wait">Please wait</string>
+    <string name="wallpaper">wallpaper</string>
+    <string name="wars">Wallpaper Wars</string>
+    <!-- From: file:/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+</resources>

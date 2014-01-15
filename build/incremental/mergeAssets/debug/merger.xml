@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/assets" >
+            <file
+                name="wallpaper_manifest.xml"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/assets/wallpaper_manifest.xml" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/build-types/debug/assets" />
+    </dataSet>
+
+</merger>

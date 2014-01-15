@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res" >
+            <file
+                name="ic_menu_goto"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/drawable-hdpi/ic_menu_goto.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_help"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/drawable-hdpi/ic_menu_help.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_mark"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/drawable-hdpi/ic_menu_mark.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_placeholder"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/drawable-hdpi/ic_placeholder.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/drawable-nodpi/ic_launcher.png"
+                qualifiers="nodpi"
+                type="drawable" />
+            <file
+                name="thumbnail"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/drawable-nodpi/thumbnail.png"
+                qualifiers="nodpi"
+                type="drawable" />
+            <file
+                name="ic_menu_goto"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/drawable-xhdpi/ic_menu_goto.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_help"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/drawable-xhdpi/ic_menu_help.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_mark"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/drawable-xhdpi/ic_menu_mark.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_placeholder"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/drawable-xhdpi/ic_placeholder.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="activity_preview"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/layout/activity_preview.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_preview_land"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/layout/activity_preview_land.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_vote"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/layout/activity_vote.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_wallpaper"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/layout/activity_wallpaper.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_jumpto"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/layout/dialog_jumpto.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="navigation_bar_category_spinner"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/layout/navigation_bar_category_spinner.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="thumbnail"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/layout/thumbnail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_preview"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/menu/activity_preview.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="activity_vote"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/menu/activity_vote.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="activity_wallpaper"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/menu/activity_wallpaper.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="ic_launcher"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/mipmap-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="mipmap" />
+            <file
+                name="ic_launcher"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/mipmap-ldpi/ic_launcher.png"
+                qualifiers="ldpi"
+                type="mipmap" />
+            <file
+                name="ic_launcher"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/mipmap-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="mipmap" />
+            <file
+                name="ic_launcher"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/mipmap-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="mipmap" />
+            <file
+                name="gestures"
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/raw/gestures"
+                qualifiers=""
+                type="raw" />
+            <file
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/values/colors.xml"
+                qualifiers="" >
+                <color name="Black" >#000000
+                </color>
+            </file>
+            <file
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/values/config.xml"
+                qualifiers="" >
+                <string name="config_wallpaper_sdcard_dl_location" >AOKP
+                </string>
+                <string name="config_wallpaper_manifest_url" >https://raw.github.com/AOKP/packages_wallpapers_SwagPapers_v2/gh-pages/wallpaper_manifest.xml
+                </string>
+                <string name="config_wallpaper_download_loc" ></string>
+            </file>
+            <file
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="padding_medium" >8dp
+                </dimen>
+                <dimen name="padding_small" >8dp
+                </dimen>
+                <dimen name="padding_large" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/values/strings.xml"
+                qualifiers="" >
+                <string name="category_name" >Category Name
+                </string>
+                <string name="wallpaper" >wallpaper
+                </string>
+                <string name="wait" >Please wait
+                </string>
+                <string name="back" >Previous
+                </string>
+                <string name="set_wallpaper" >Set as Wallpaper
+                </string>
+                <string name="saved" >Wallpaper saved to
+                </string>
+                <string name="title_activity_wallpaper" >Swag Papers
+                </string>
+                <string name="jump2" >Jump to Page:
+                </string>
+                <string name="downloading" >Downloading…
+                </string>
+                <string name="wars" >Wallpaper Wars
+                </string>
+                <string name="vote" >Vote!
+                </string>
+                <string name="choose_category" >Choose category
+                </string>
+                <string name="setting_wallpaper" >Setting wallpaper…
+                </string>
+                <string name="save_wallpaper" >Save to Storage
+                </string>
+                <string name="app_name" >AOKP Wallpapers
+                </string>
+                <string name="next" >Next
+                </string>
+                <string name="jump" >Jump to Page
+                </string>
+                <string name="page" >Page: 
+                </string>
+                <string name="about" >About
+                </string>
+                <string name="set" >Wallpaper set!
+                </string>
+            </file>
+            <file
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Light" />
+            </file>
+            <file
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/values-cs/strings.xml"
+                qualifiers="cs" >
+                <string name="back" >Předchozí
+                </string>
+                <string name="jump" >Skočit na stránku
+                </string>
+                <string name="about" >O aplikaci
+                </string>
+                <string name="set" >Tapeta nastavena!
+                </string>
+                <string name="vote" >Hlasovat!
+                </string>
+                <string name="setting_wallpaper" >Nastavuje se tapeta…
+                </string>
+                <string name="wallpaper" >tapeta
+                </string>
+                <string name="next" >Další
+                </string>
+                <string name="jump2" >Skočit na stránku:
+                </string>
+                <string name="choose_category" >Zvolit kategorii
+                </string>
+                <string name="wars" >Tapetové války
+                </string>
+                <string name="page" >Stránka: 
+                </string>
+                <string name="title_activity_wallpaper" >Swag pety
+                </string>
+                <string name="wait" >Chvilku strpení
+                </string>
+                <string name="downloading" >Stahování…
+                </string>
+                <string name="app_name" >Tapety AOKP
+                </string>
+                <string name="saved" >Tapeta uložena do
+                </string>
+                <string name="save_wallpaper" >Uložit do zařízení
+                </string>
+                <string name="set_wallpaper" >Nastavit jako tapetu
+                </string>
+                <string name="category_name" >Jméno kategorie
+                </string>
+            </file>
+            <file
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/values-large/dimens.xml"
+                qualifiers="large" >
+                <dimen name="padding_small" >8dp
+                </dimen>
+                <dimen name="padding_medium" >16dp
+                </dimen>
+                <dimen name="padding_large" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light" />
+            </file>
+            <file
+                path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" />
+            </file>
+        </source>
+        <source path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/khasmek/Android/AOKP/packages/wallpapers/SwagPapers/build-types/debug/res" />
+    </dataSet>
+
+</merger>
